@@ -1,10 +1,10 @@
-# Peter Steinberger's Personal Website
+# Nick Sondej's Personal Website
 
-This is the source code for my personal website, built with [Astro](https://astro.build) and deployed on [Vercel](https://vercel.com).
+This is the source code for my personal website, built with [Astro](https://astro.build) and deployed on [Vercel](https://vercel.com). It's forked from Peter Steinberger's (@steipete) personal site, with his blogs and info replaced with my own, and then some 
 
 ## About
 
-I'm Peter Steinberger, an iOS developer, entrepreneur, and open source contributor. This website hosts my personal blog and information about my work.
+I'm Nick Sondej, a mechanical design engineer who side-quested his way into a wacky collection of skills and hobbies (possibly too many). This website hosts my writing, some thoughts on life of various depth, and assorted projects.
 
 ## Project Structure
 
