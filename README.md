@@ -1,6 +1,6 @@
 # Nick Sondej's Personal Website
 
-This is the source code for my personal website, built with [Astro](https://astro.build) and deployed on [Vercel](https://vercel.com). It's forked from Peter Steinberger's (@steipete) personal site, with his blogs and info replaced with my own, and then some 
+This is the source code for my personal website, built with [Astro](https://astro.build) and deployed on [Vercel](https://vercel.com). It's forked from [Peter Steinberger's]([url](https://github.com/steipete)) personal site, with his blogs and info replaced with my own, and then some 
 
 ## About
 
