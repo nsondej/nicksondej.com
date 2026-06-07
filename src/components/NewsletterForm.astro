@@ -4,9 +4,12 @@ export interface Props {
 }
 
 const { variant = "default" } = Astro.props;
+
+// Newsletter disabled until a provider is set up
+const NEWSLETTER_ENABLED = false;
 ---
 
-<div class={variant === 'default' ? 'newsletter-box bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 rounded-lg p-6 my-8' : 'newsletter-compact mt-6'}>
+{NEWSLETTER_ENABLED && <div class={variant === 'default' ? 'newsletter-box bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 rounded-lg p-6 my-8' : 'newsletter-compact mt-6'}>
   {variant === 'default' && (
     <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">
       New posts, shipping stories, and nerdy links straight to your inbox.
@@ -47,7 +50,7 @@ const { variant = "default" } = Astro.props;
       2× per month, pure signal, zero fluff.
     </p>
   )}
-</div>
+</div>}
 
 <style>
   @media (max-width: 640px) {
